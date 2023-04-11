@@ -1,0 +1,18 @@
+{
+    "$schema": "https://aka.ms/teamsfx-env-config-schema",
+    "description": "You can customize the TeamsFx config for different environments. Visit https://aka.ms/teamsfx-env-config to learn more about this.",
+    "manifest": {
+        "appName": {
+            "short": "support-ticket-alerts",
+            "full": "Full name for support-ticket-alerts"
+        },
+        "description": {
+            "short": "Short description of support-ticket-alerts",
+            "full": "Full description of support-ticket-alerts"
+        },
+        "icons": {
+            "color": "resources/color.png",
+            "outline": "resources/outline.png"
+        }
+    }
+}
