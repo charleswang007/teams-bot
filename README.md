@@ -2,7 +2,7 @@
 
 ### References
 1. [support-ticket-alerts](https://learn.microsoft.com/en-us/training/modules/teams-toolkit-vsc-create-bot/)
-2. [teams-tab-with-chat](https://learn.microsoft.com/en-us/training/modules/teams-toolkit-vsc-integrate-chat/)
+2. [teams-tab-with-chat](https://learn.microsoft.com/en-us/training/modules/teams-toolkit-vsc-integrate-chat/) --> this example
 
 ### Screenshots
 
