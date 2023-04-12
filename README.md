@@ -20,9 +20,9 @@ if (people.isSupported() && chat.isSupported()) {
   const peoplePickerResults = await people.selectPeople(); // to be replaced
   const users = peoplePickerResults.map(p => p.email); 
   await chat.openGroupChat({ 
-    users, 
+		users, 
 		topic: "Case Chat " + caseId, 
-    message: "This is a test chat. Enjoy working on the case!", 
+		message: "This is a test chat. Enjoy working on the case!", 
   }); 
 } 
 ```
