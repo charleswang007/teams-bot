@@ -6,7 +6,7 @@ import { app, people, chat } from "@microsoft/teams-js";
 
 export default function Tab() { 
   const { themeString } = useContext(TeamsFxContext);
-  const startChat = async () => { 
+  const startChat = async (caseId) => { 
     await app.initialize(); 
     const context = await app.getContext(); 
     if (people.isSupported() && chat.isSupported()) { 
@@ -14,7 +14,7 @@ export default function Tab() {
         const users = peoplePickerResults.map(p => p.email); 
         await chat.openGroupChat({ 
             users, 
-            topic: "Case Chat", 
+            topic: "Case Chat " + caseId, 
             message: "This is a test chat. Enjoy working on the case!", 
         }); 
       } 
@@ -25,8 +25,10 @@ export default function Tab() {
         <div className="narrow page-padding">
           <h1 className="center">Case Chat 1.0</h1> 
           <div className="sections"> 
-            <div className="center"> 
-              <Button primary onClick={() => startChat()}>Start Chat</Button> 
+            <div className="center">
+              <input name="searchTxt" type="text" maxlength="512" id="searchTxt" class="searchField"/>
+              {"\n"}
+              <Button primary onClick={() => startChat(document.getElementById("searchTxt").value)}>Start Chat</Button> 
             </div> 
           </div> 
         </div> 

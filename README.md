@@ -7,6 +7,6 @@
 ## Screenshots
 
 ![Local Debug](screenshots/casechat1.png)
-![Local Debug](screenshots/casechat2.png)
-![Local Debug](screenshots/casechat3.png)
+![Local Debug](screenshots/casechat2.2.png)
+![Local Debug](screenshots/casechat3.1.png)
 ![Local Debug](screenshots/casechat4.png)
