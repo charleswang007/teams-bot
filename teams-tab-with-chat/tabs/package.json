@@ -12,6 +12,7 @@
         "@microsoft/teamsfx": "^2.0.0",
         "@microsoft/teamsfx-react": "^2.0.0",
         "axios": "^0.21.1",
+        "gh-pages": "^5.0.0",
         "react": "^16.14.0",
         "react-dom": "^16.14.0",
         "react-router-dom": "^5.1.2",
@@ -28,7 +29,9 @@
         "build": "cross-env GENERATE_SOURCEMAP=false react-scripts build",
         "build:teamsfx": "cross-env-shell \"env-cmd -f .env.teamsfx.${TEAMS_FX_ENV} npm run build\"",
         "build:teamsfx:dev": "cross-env TEAMS_FX_ENV=dev npm run build:teamsfx",
-        "eject": "react-scripts eject"
+        "eject": "react-scripts eject",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
         "extends": [

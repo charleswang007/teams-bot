@@ -1,5 +1,6 @@
 {
-    "name": "Case Chat",
+    "name": "case-chat",
+    "homepage": "https://charleswang007.github.io/case-chat",
     "version": "0.0.1",
     "description": "",
     "author": "",
@@ -9,5 +10,8 @@
     "devDependencies": {
         "@microsoft/teamsfx-cli": "1.*"
     },
-    "license": "MIT"
+    "license": "MIT",
+    "dependencies": {
+        "gh-pages": "^5.0.0"
+    }
 }

@@ -26,3 +26,6 @@ if (people.isSupported() && chat.isSupported()) {
   }); 
 } 
 ```
+
+### Published Site
+https://charleswang007.github.io/teams-bot/#/tab

@@ -16,8 +16,8 @@
     },
     "fx-resource-frontend-hosting": {
         "indexPath": "/index.html#",
-        "domain": "charleswang007.github.io/teams-bot",
-        "endpoint": "https://charleswang007.github.io/teams-bot",
+        "domain": "teamstabwicf1d4ftab.z7.web.core.windows.net",
+        "endpoint": "https://teamstabwicf1d4ftab.z7.web.core.windows.net",
         "storageResourceId": "/subscriptions/05a4a831-c3a5-4bd6-b77c-bf3db348d615/resourceGroups/teams-bot/providers/Microsoft.Storage/storageAccounts/teamstabwicf1d4ftab"
     },
     "fx-resource-aad-app-for-teams": {
@@ -28,8 +28,8 @@
         "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
         "oauthHost": "https://login.microsoftonline.com",
         "oauthAuthority": "https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47",
-        "applicationIdUris": "api://charleswang007.github.io/teams-bot/9d912d7e-ea17-4bd9-9182-6aecbda26d6f",
-        "frontendEndpoint": "https://charleswang007.github.io/teams-bot"
+        "applicationIdUris": "api://teamstabwicf1d4ftab.z7.web.core.windows.net/9d912d7e-ea17-4bd9-9182-6aecbda26d6f",
+        "frontendEndpoint": "https://teamstabwicf1d4ftab.z7.web.core.windows.net"
     },
     "fx-resource-identity": {
         "identityName": "teamstabwicf1d4f",
